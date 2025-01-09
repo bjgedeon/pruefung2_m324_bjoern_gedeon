@@ -28,3 +28,9 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+  virenscanner-job:
+    if: 1 == 2
+    runs-on: ubuntu-latest
+    steps:
+       - uses: 'hugoalh/scan-virus-ghaction@latest'
