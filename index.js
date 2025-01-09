@@ -14,6 +14,6 @@ console.log(
 
 const value = 5;
 
-if (value = 10) {
+if (value === 10) {
   console.log("Value is 10");
 }
